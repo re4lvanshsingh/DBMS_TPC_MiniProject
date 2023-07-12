@@ -16,3 +16,5 @@ Hello all!
    (iv).Functionalities let user interact with the database. User-specific interaction induced. Only selected users
 		like admin have special privileges, others have limited scope for smoother control and functioning.
 
+ 5. Link for the quick video tutorial : https://drive.google.com/drive/folders/1b_gAziJSrMgsJLVa0Y0FCFWu3onrCUxF?usp=share_link 
+

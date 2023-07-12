@@ -1,13 +1,20 @@
-# Switch
+Hello all!
 
-A landing page template.
+1. This is a group project of DBMS Course (CS260) of our semester in IIT PATNA. We have made the training and placement portal of IITP which combines three domains viz. for Student, Alumni and for Recruiter.
 
-* [Getting started](#getting-started)
+2. The frontend is mainly coded in HTML, CSS, and Javascript and also contains some bootstrap. It has a clean and clear UI which enables every type of user i.e student, alumni or recruiter to browse through the website in hastle free manner.
 
-## Getting started
-* First, ensure that node.js & npm are both installed. If not, choose your OS and installation method from [this page](https://nodejs.org/en/download/package-manager/) and follow the instructions.
-* This template requires Node 14 to work. You can handle multiple node versions with [NVM](https://github.com/nvm-sh/nvm) 
-* Next, use your command line to enter your project directory.
-* This template comes with a ready-to-use package file called `package-sample.json`. You just need to rename it to `package.json`, then run `npm install` to install all of the dependencies into your project.
+3. Backend of the website consists of PHP in such a way that it connects the user to database server through MYSQL.
 
-You're ready to go! Run any task by typing `npm run task` (where "task" is the name of the task in the `"scripts"` object). The most useful task for rapid development is `watch`. It will start a new server, open up a browser and watch for any SCSS or JS changes in the `src` directory; once it compiles those changes, the browser will automatically inject the changed file(s)!
+4. It has various features such as:
+   (i) Studens can check for eligible companies according to their skill and company requirement.
+   
+   (ii) Also companies can select and filter out students according to their requirement and job roles.
+   
+   (iii) It also contains an alumni section where alumni's can provide their current and past job journey along with their other details like 			(company name, CTC, location etc.).
+   
+   (iv).Functionalities let user interact with the database. User-specific interaction induced. Only selected users
+		like admin have special privileges, others have limited scope for smoother control and functioning.
+
+ 5. Link for the quick video tutorial : https://drive.google.com/drive/folders/1b_gAziJSrMgsJLVa0Y0FCFWu3onrCUxF?usp=share_link 
+

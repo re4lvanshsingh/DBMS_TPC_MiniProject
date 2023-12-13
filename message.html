@@ -6,49 +6,122 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Message</title>
+    <!-- Include GSAP library -->
+    <script src="https://unpkg.com/gsap@3.9.1"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Electrolize&family=News+Cycle&display=swap" rel="stylesheet">
+    <style>
+       
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color:#08387f;
+            font-family: 'News Cycle', sans-serif;
+        }
+
+        .about {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .director-info,
+        .box {
+            margin: 20px;
+            padding: 20px;
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 1s, transform 1s;
+        }
+
+        .director-info img {
+            width: 100%;
+            max-width: 600px;
+            height: 440px;
+            border-radius: 8px;
+        }
+
+        .box {
+            width: 100%;
+            max-width: 600px;
+            margin: 20px;
+            padding: 20px;
+            background-color: #08387f;
+            border: 2px solid #0fa5d9;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .box p {
+            font-family:'Lucida Grande', Verdana, sans-serif;
+            text-align: justify;
+            color: #cad7eb;
+            font: size 14px;
+        }
+        .para{
+            font-family:'Lucida Grande', Verdana, sans-serif;
+            text-align: justify;
+            color:#051224;
+            
+
+        }
+
+        hr {
+            height: 15px;
+            background-color: #0fa5d9;
+            width: 100%;
+        }
+    </style>
 </head>
 
 <body>
-    <div class="about details row">
+    <h2 style="color:#cad7eb; text-align: center;font-family: 'Electrolize', sans-serif;font-size: xx-large;">From The Director's Desk</h2>
+    <hr>
+    <div class="about details row" style=" background-color:#4682db">
+        <div class="director-info">            
+            <img src="images/TN.jpg" alt="Director's Photo">
+            <p class="para">
+                Prof.T.N.Singh<br>
+                Director<br>
+                Indian Institute of Technology Patna
+            </p>
+        </div>
 
-        <h2 style="color:#08387f;">From The Director's Desk</h2>
-        <hr
-            style="height:2px;border-color:#08387f;background-color:#0fa5d9;width:38%;position:relative;margin-left:0px;">
-        <img src="images/TN.jpg" style="width:500px;height:400px;float:left;">
-        <br>
-        <p class="para" style="left:-500px;position:relative;top:377px;color:#08387f;font-weight:bold;">
-            Prof.T.N.Singh
-            <br>Director
-            <br>Indian Institute of Technology Patna
-
-        </p>
-
-        <div style="width:600px;position:relative;top:-100px;    margin: 0px 605px;" class="box">
-            <h4 align="justify" class="para" style="font-family:font1;padding:10px 10px 10px 10px;color:#000; border: 2px solid black;">The
-                Indian Institute of Technology Patna has a glorious past of more than 15
-                years and has been widely acclaimed for its excellence in education, research and training. A special
+        <div class="box">
+            <p align="justify" class="para">
+                The Indian Institute of Technology Patna has a glorious past of more than 15
+                years and has been widely acclaimed for its excellence in education, research, and training. A special
                 emphasis is laid on total personality development along with the quality education and technical
                 training of the students. Indian Institute of Technology Patna is fully networked with industry, as well
                 as
-                with academic/scientific community. It has active collaborations with leading universities and
+                with the academic/scientific community. It has active collaborations with leading universities and
                 industries in India and abroad. Indian Institute of Technology Patna is the alma mater of highly
-                distinguished
-                world class engineers and technologists.<br><br>
+                distinguished world-class engineers and technologists.<br><br>
                 Indian Institute of Technology Patna has kept the quality of education and research as its main focus of
-                academic and professional activities and this has earned a high reputation in the country and abroad as
+                academic and professional activities, and this has earned a high reputation in the country and abroad
+                as
                 is evident from IITP figuring several times among the top ten engineering institutions in the country
-                along with the IITs. Alumni, Staff, students and supporters take pride in having contributed to the
+                along with the IITs. Alumni, Staff, students, and supporters take pride in having contributed to the
                 Indian Institute of Technology Patna reputation as India's flagship, research-led university, known for
                 the
                 excellence of its teaching, research, and service to its local, national and international communities.
                 Our challenge for the future is to build on this strong base to establish ourselves firmly among the
-                world's leading universities. I hope our outstanding students will support us in this endeavour and in
+                world's leading universities. I hope our outstanding students will support us in this endeavor and in
                 turn emerge themselves, as pioneers of an exemplary society.
-
-
-            </h4>
+            </p>
         </div>
     </div>
+
+    <script>
+        gsap.to('.director-info, .box', { opacity: 1, y: 5, duration: 1, delay: 0.5 });
+    </script>
 </body>
 
 </html>
+
+

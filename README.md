@@ -9,7 +9,7 @@ Hello all!
 3. Backend of the website consists of PHP in such a way that it connects the user to database server through MYSQL.
 
 4. It has various features such as:
-   (i) Studens can check for eligible companies according to their skill and company requirement.
+   (i) Students can check for eligible companies according to their skill and company requirement.
    
    (ii) Also companies can select and filter out students according to their requirement and job roles.
    

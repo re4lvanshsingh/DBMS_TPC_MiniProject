@@ -21,3 +21,5 @@ Hello all!
  5. Link for the quick demonstration tutorial :
 
 [CS259-CS260_Project_Report.docx](https://github.com/user-attachments/files/16646581/CS259-CS260_Project_Report.docx)
+
+[summary.pdf](https://github.com/user-attachments/files/16646622/summary.pdf)
